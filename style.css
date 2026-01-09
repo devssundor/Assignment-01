@@ -151,3 +151,45 @@ img{
     color: #627382;
     line-height: 24px;
 }
+.knowledge{
+    padding: 120px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+.knowledge .left img{
+    border-radius: 12px;
+}
+.knowledge .right .pretext{
+    font-size: 16px;
+    color: #03B868;
+    margin-bottom: 16px;
+}
+.knowledge .right h1{
+    font-size: 48px;
+    color: #001931;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.knowledge .right p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+.knowledge .right li{
+    list-style: none;
+    font-size: 16px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.knowledge .right .li::before{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(./assets/CheckCircle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 6px;
+    vertical-align: middle;
+}
