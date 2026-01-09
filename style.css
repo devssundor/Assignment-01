@@ -45,6 +45,11 @@ header li{
 img{
     vertical-align: middle;
 }
+
+/* .hero{
+    background-color: ;
+} */
+
 .hero .top{
     background: url(./assets/hero-bg.png);
     color: #FFFFFF;
@@ -94,4 +99,55 @@ img{
 .hero .top .btn-container .btn-secondary img{
     height: 16px;
     width: 16px;
+}
+.hero .bottom{
+    text-align: center;
+}
+.hero .bottom .h2{
+    color: #001931;
+    font-weight: bold;
+    font-size: 48px;
+    margin-top: 50px;
+}
+.hero .bottom .btm-details{
+    color: #627382;
+    font-size: 16px;
+    padding-top: 16px;
+}
+.hero .bottom .card-container{
+    display: flex;
+    margin: 44px 120px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    gap: 24px;
+}
+.hero .bottom .card-container .img-container{
+    background-color: #F95555;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin-bottom: 16px;
+}
+.hero .bottom .card-container .card{
+    background-color: #FFFFFF;
+    padding: 70px 24px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: #010101;
+}
+.hero .bottom .card-container .card .h3{
+    font-size: 24px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.hero .bottom .card-container .card .p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 24px;
 }
