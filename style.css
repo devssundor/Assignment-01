@@ -34,3 +34,64 @@ header li{
     background-color: #30B868;
 
 }
+.btn-secondary{
+    font-size: 16px;
+    padding: 12px 16px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    background: none;
+}
+img{
+    vertical-align: middle;
+}
+.hero .top{
+    background: url(./assets/hero-bg.png);
+    color: #FFFFFF;
+    text-align: center;
+    width: 1600px;
+    height: 674px;
+    padding: 115.5px 120px 179.5px 120px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero .top .early{
+    background-color: white;
+    color: #30B868;
+    padding: 8px 12px;
+    width: 229px;
+    border-radius: 1000px;
+    margin-bottom: 16px;
+    display: flex;
+    gap: 6px;
+    align-content: center;
+    justify-content: center;
+}
+.hero .top .early img{
+    width: 16px;
+    height: 16px;
+}
+.hero .top .h1{
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+}
+.hero .top .h1 .green{
+    color: #30B868;
+}
+.hero .top .details{
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+.hero .top .btn-container{
+    display: flex;
+    gap: 16px;
+}
+.hero .top .btn-container .btn-secondary img{
+    height: 16px;
+    width: 16px;
+}
